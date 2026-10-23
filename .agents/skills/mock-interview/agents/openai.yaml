@@ -1,0 +1,6 @@
+interface:
+  display_name: "模拟面试"
+  short_description: "按个人岗位、语言、追问与评分要求进行模拟面试，并按约定给出反馈"
+  default_prompt: "使用 $mock-interview，读取面试配置并开始一场模拟面试。"
+policy:
+  allow_implicit_invocation: false
