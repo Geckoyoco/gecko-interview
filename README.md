@@ -3,7 +3,7 @@
 个人语音模拟面试 Skill 与参考资料。
 
 ## 云端设置
-在 Codex 创建云端环境，选择私有仓库 ryocobb/gecko-interview，完成设置后发布。环境不需要额外依赖。
+在 Codex 创建云端环境，选择私有仓库 Geckoyoco/gecko-interview，完成设置后发布。环境不需要额外依赖。
 
 ## 开始面试
 在关联本仓库的云端任务中调用 `$mock-interview`，再开启客户端的语音对话。若 Skill 未被发现，要求读取 `.agents/skills/mock-interview/SKILL.md` 并按其执行。首次填写 `materials/interview-profile.md`；简历、岗位描述、题库放入 `materials/`。Skill 仅显式调用时生效，不改变其他聊天。
